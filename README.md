@@ -1,5 +1,7 @@
 # Elisé (LINE Chat Bot) #
 
+[![Build Status](https://api.travis-ci.org/Diptags/Elise-LineChatBot.svg?branch=master)](https://travis-ci.org/Diptags/Elise-LineChatBot/)
+
 Elisé adalah suatu chat bot menggunakan LINE dan berbasiskan Python 3,6 .
 Elisé saat ini masih dalam pengembangan lebih lanjut
 
