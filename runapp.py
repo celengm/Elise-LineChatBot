@@ -34,8 +34,8 @@ app = Flask(__name__)
 
 # get channel_secret and channel_access_token from your environment variable
 
-channel_secret = os.getenv('d63c1f98cfe4403b4c85822c222284a4', None)
-channel_access_token = os.getenv('VyOdQlBD3CzCz8Ge9EEHLe5TJ1PnjrE00TtZ/MyjIR+eS8R8dhgBbF+Ro1ZHr8oThmBAxpnJeCvV7+esZHLWTGiGZ99LYfI6NAp6FWJPMR5a/wlOxZ+WlUvDaSSJ+ZvWxCZBVyXSAXGQF1Y6ZDD97wdB04t89/1O/w1cDnyilFU=', None)
+channel_secret = os.getenv('d63c1f98cfe4403b4c85822c222284a4')
+channel_access_token = os.getenv('VyOdQlBD3CzCz8Ge9EEHLe5TJ1PnjrE00TtZ/MyjIR+eS8R8dhgBbF+Ro1ZHr8oThmBAxpnJeCvV7+esZHLWTGiGZ99LYfI6NAp6FWJPMR5a/wlOxZ+WlUvDaSSJ+ZvWxCZBVyXSAXGQF1Y6ZDD97wdB04t89/1O/w1cDnyilFU=')
 if channel_secret is None:
     print('Otorisasi gagal ! Terapkan token LINE_CHANNEL_SECRET terlebih dahulu.')
     sys.exit(1)
